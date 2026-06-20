@@ -43,7 +43,3 @@ streamlit run app.py
 3. **Balancing** — SMOTE (sampling_strategy=0.6)
 4. **Model** — SVM dengan kernel RBF (C=10, gamma='scale'), hyperparameter di-tuning via GridSearchCV
 5. **Evaluasi** — dibandingkan dengan Random Forest, KNN, dan Gradient Boosting
-
-## 📦 Dataset
-
-Dataset tidak disertakan di repo ini karena ukurannya besar. Gunakan dataset helmet detection dengan struktur anotasi XML (format Pascal VOC) berisi label `With Helmet` / `Without Helmet`.
