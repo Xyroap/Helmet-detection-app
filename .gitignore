@@ -1,0 +1,24 @@
+# Dataset (terlalu besar untuk di-push ke GitHub)
+dataset/
+processed_dataset/
+processed_dataset_balanced/
+
+# File hasil ekstraksi
+*.npy
+
+# Model checkpoint sementara
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
